@@ -1,0 +1,50 @@
+.first,
+.second {
+	margin-right: 30px;
+}
+.link {
+	text-decoration: underline;
+	color: blue;
+}
+div p {
+	margin-top: 0;
+}
+div {
+	margin-bottom: 20px;
+}
+
+/*所有h1及h2及con外边距为0*/
+h1,
+.con, 
+h2 {
+	margin: 0;
+}
+/*所有con中的div外边距为0*/
+.con div {
+	margin: 0;
+}
+.sidebar {
+	padding: 20px;
+	font-size: 20px;
+	background-color: grey;
+}
+h2 {
+	width: 15%;
+	height: 130px;
+	line-height: 130px;
+	float: left;
+	font-size: 16px;
+	text-align: center;
+	background-color: lightgrey;
+}
+.con div {
+	width: 85%;
+	height: 130px;
+	float: right;
+}
+.con {
+	border: 1px white solid;
+}
+.con p {
+	display: inline-block;
+}

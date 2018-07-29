@@ -1,0 +1,31 @@
+body {
+	width: 70%;
+	margin: 0 auto;
+}
+.sidebar {
+	width: 20%;
+	height: 700px;
+	float: left;
+	background-color: blue;
+	padding-top: 50px;
+	color: white;
+	text-align: center;
+}
+.con {
+	width: 75%;
+	float: right;
+}
+.first,
+.second {
+	margin-right: 30px;
+}
+.link {
+	text-decoration: underline;
+	color: blue;
+}
+div p {
+	margin-top: 0;
+}
+.con div{
+	margin-top: 20px;
+}

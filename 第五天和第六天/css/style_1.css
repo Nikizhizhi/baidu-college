@@ -1,0 +1,14 @@
+.first,
+.second {
+	margin-right: 30px;
+}
+.link {
+	text-decoration: underline;
+	color: blue;
+}
+div p {
+	margin-top: 0;
+}
+div {
+	margin-bottom: 20px;
+}

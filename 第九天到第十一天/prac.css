@@ -1,0 +1,441 @@
+* {
+	margin: 0;
+	padding: 0;
+	font: 20px/1.6 "Montserrat ExtraLight", sans-serif;
+}
+
+/* 头部区域 */
+header {
+	padding-top: 210px;
+	height: 780px;
+	text-align: center;
+	background-image: url(前端学院设计图-assets/Background7.png);
+	color: #ffffff;
+}
+
+header h1 {
+	margin-bottom: 86px;
+	font-weight: 400;
+	font-size: 62px;
+	line-height: 72px;
+}
+
+.intro {
+	width: 766px;
+    margin: 0 auto;
+    opacity: .702;
+}
+
+.sign-up {
+	width: 970px;
+	height: 250px;
+	border: 1px solid #54534b;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding-top: 60px;
+	box-sizing: border-box;
+}
+
+.sign-up p:nth-child(1) {
+    font-size: 16px;
+    line-height: 1.75;
+    margin-bottom: 10px;
+}
+
+.sign-up p:nth-child(2) {
+    font-size: 12px;
+    opacity: .302;
+    line-height: 1.2;
+    margin-bottom: 45px;
+}
+
+.sign-up form input {
+	width: 268px;
+	height: 40px;
+	margin-right: 30px;
+	border: 1px solid #54534b;
+	padding-left: 22px;
+	font-size: 14px;
+	background-color: transparent;
+}
+
+.sign-up form input:nth-child(1)::placeholder {
+	color: #fff;
+}
+
+.sign-up input:last-child {
+	padding: 0;
+    width: 125px;
+    font-size: 12px;
+    color: #141414;
+    background-color: #fff;
+}
+
+/* 第一块 */
+.row01 {
+	padding-top: 89px;
+	height: 621px;
+	color: #141414;
+}
+
+.row01 p:nth-child(1) {
+	margin-bottom: 36px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.row01 p:nth-child(2),
+.row01 p:nth-child(3) {
+	font-size: 42px;
+	line-height: 52px;
+	text-align: center;
+}
+
+.row01 p:nth-child(3) {
+	margin-bottom: 85px;
+}
+
+.row01 .row {
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.row01 .row:nth-child(1) {
+	margin-bottom: 82px;
+}
+
+.row01 .row .block {
+	width: 40%;
+}
+
+.row01 .block .pho {
+	float: left;
+	margin-right: 30px;
+	width: 50px;
+	height: 50px;
+}
+
+.row01 .block div {
+	overflow: hidden;
+}
+
+.row01 .block h3 {
+	font-size: 20px;
+	line-height: 32px;
+}
+
+.row01 .block p {
+	font-size: 16px;
+	line-height: 26px;
+	text-align: left;
+}
+
+/* 第二块 */
+.row02 {
+	position: relative;
+	height: 650px;
+	background-image: url(前端学院设计图-assets/Background8.png);
+	background-size: 100% 100%;
+	color: #fff;
+}
+
+.row02 .con {
+	position: absolute;
+	top: 130px;
+	left: 150px;
+}
+
+.row02 .up {
+	width: 380px;
+	height: 320px;
+	margin-bottom: 40px;
+}
+
+.row02 h1 {
+	font-size: 42px;
+	line-height: 52px;
+	margin-bottom: 30px;
+}
+
+.row02 p {
+	font-size: 18px;
+	line-height: 28px;
+	opacity: .3;
+}
+
+
+.row02 button {
+    border-radius: 2px;
+	width: 240px;
+	height: 60px;
+	font-size: 12px;
+	line-height: 1.2;
+	text-align: center;
+	color: #141414;
+	background-color: #fff;
+}
+
+.row02 button:last-child {
+	margin-left: 30px;
+	color: #fff;
+	background-color: transparent;
+}
+
+/* 第三块 */
+.row03 {
+	height: 500px;
+	text-align: center;
+	color: #141414;
+}
+
+.row03 h1 {
+	margin-top: 99px;
+	margin-bottom: 85px;
+	font-size: 42px;
+	line-height: 52px;
+}
+
+.row03 .con {
+	display: flex;
+	justify-content: space-around;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.row03 .con div {
+	width: 270px;
+	height:290px;
+}
+
+.row03 div p {
+	margin-top: 35px;
+	font-size: 16px;
+	line-height: 26px;
+	opacity: .8;
+}
+
+/* 第四块 */
+.row04 {
+	position: relative;
+	height: 1000px;
+	border-top: 1px solid #d4d4d4;
+	border-bottom: 1px solid #d4d4d4;
+}
+
+.row04 div {
+	width: 320px;
+	height: 260px;
+}
+
+.row04 div h3 {
+	margin-bottom: 20px;
+	font-size: 20px;
+	line-height: 32px;
+}
+
+.row04 div p {
+	font-size: 16px;
+	line-height: 28px;
+	opacity: .7;
+}
+
+.row04 img:first-child {
+	position: absolute;
+	top: 100px;
+	left: 150px;
+}
+
+.row04 .fir {
+	position: absolute;
+	top: 150px;
+	right: 150px;
+}
+
+.row04 .sec {
+	position: absolute;
+	bottom: 150px;
+	left: 150px;
+}
+
+.row04 img:last-child {
+	position: absolute;
+	bottom: 100px;
+	right: 150px;
+}
+
+/* 第五块 */
+.row05 {
+	height: 960px;
+	border-bottom: 1px solid #d4d4d4;
+	text-align: center;
+}
+
+.row05 h1 {
+	margin-top: 70px;
+	margin-bottom: 20px;
+	font-size: 42px;
+	line-height: 52px;
+}
+
+.row05 p {
+	width: 60%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	font-size: 18px;
+	line-height: 28px;
+	opacity: .7;
+}
+
+.row05 .mems {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.row05 .mem {
+	position: relative;
+}
+
+.row05 .mem:hover .cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 470px;
+	height: 340px;
+	background-image: url(前端学院设计图-assets/Userpic 1.png);
+	cursor: pointer;
+}
+
+/* 第六块 */
+.row06 {
+	padding-top: 70px;
+	height: 630px;
+}
+
+.row06 .left {
+	float: left;
+	margin-left: 200px;
+	width: 400px;
+	height: :560px;
+	border: 1px solid #d4d4d4;
+	text-align: center;
+}
+
+.row06 .left h3 {
+	margin-top: 35px;
+	margin-bottom: 25px;
+	font-size: 16px;
+	line-height: 2;
+}
+
+.row06 .left input,
+.row06 .left textarea {
+	padding-left: 20px;
+	margin-bottom: 15px;
+	width: 280px;
+	height: 40px;
+	font-size: 14px;
+}
+
+.row06 .left textarea {
+	height: 150px;
+}
+
+.row06 .left button {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	border: none;
+	width: 300px;
+	height: 40px;
+	font-size: 12px;
+	letter-spacing: 2px;
+	color: #fff;
+	background-color: #141414;
+}
+
+.row06 .right {
+	float: left;
+	margin-top: 40px;
+	margin-left: 120px;
+	width: 370px;
+}
+
+.row06 .right h1 {
+	margin-bottom: 30px;
+	font-size: 42px;
+	line-height: 52px;
+}
+
+.row06 .right h1 + p {
+	margin-bottom: 50px;
+	font-size: 14px;
+	opacity: .7;
+}
+
+.row06 .contact {
+	margin-bottom: 20px;
+}
+
+.row06 .contact img {
+	float: left;
+	margin-right: 20px;
+}
+
+.row06 .contact p {
+	font-size: 16px;
+	line-height: 26px;
+	color: #141414;
+}
+
+.row06 .contact .emmm {
+	padding-left: 42px;
+}
+
+/* 页脚区域 */
+footer {
+	display: flex;
+	padding: 50px 150px;
+	height: 250px;
+	color: #fff;
+	background-color: #141414;
+}
+
+footer .thr {
+	flex: 1.5 150px;
+	margin-right: 70px;
+}
+
+footer .one {
+	flex: 2.5 250px;
+}
+
+footer p {
+	margin-bottom: 20px;
+	font-size: 14px;
+	line-height: 28px;
+	letter-spacing: 2px;
+}
+
+footer .thr a {
+    display: block;
+    font-size: 16px;
+    line-height: 46px;
+    text-decoration: none;
+    color: #fff;
+    opacity: .4;
+}
+
+footer .one p + p {
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0;
+	opacity: .4;
+}
+
+footer .social a {
+	margin-right: 22px;
+	opacity: .4;
+}
