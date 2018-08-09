@@ -1,0 +1,383 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+/* 第一列 */
+.column01 {
+	float: left;
+	position: relative;
+	box-sizing: border-box;
+	width: 100px;
+	height: 100%;
+	padding: 20px;
+	text-align: center;
+	background-color: #1d2531;
+}
+
+.column01 .active {
+	position: absolute;
+	top: 40px;
+	left: 0;
+}
+
+.column01 .item {
+	margin-bottom: 20px;
+}
+
+.column01 .actions {
+	position: absolute;
+	left: 24.1px;
+	bottom: 20px;
+}
+
+.column01 .actions a:first-child {
+	margin-right: 15px;
+}
+
+/* 第二列 */
+.column02 {
+	float: left;
+	position: relative;
+	box-sizing: border-box;
+	width: 250px;
+	height: 100%;
+	padding: 0 30px;
+	background-color: #222c3c;
+}
+
+.column02 .row {
+	padding: 30px 0;
+	border-bottom: 1px solid #5b6779;
+}
+
+.column02 div:nth-of-type(3) {
+	border: none;
+}
+
+.column02 .row .tit {
+	margin-bottom: 25px;
+	font-size: 12px;
+	color: #5b6779;
+}
+
+.column02 .row .tit a {
+	float: right;
+}
+
+.column02 .row p {
+	margin-bottom: 10px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #b7c0cd;
+}
+
+.column02 .row p:last-child {
+	margin-bottom: 0;
+}
+
+.column02 .row .mess1 {
+	background: right center no-repeat url(12_15-assets/54.png);
+}
+
+.column02 div:nth-of-type(2) p {
+    padding-left: 30px;
+}
+
+.column02 div:nth-of-type(2) p:nth-of-type(1) {
+	background: left center no-repeat url(12_15-assets/Book.png);
+}
+
+.column02 div:nth-of-type(2) p:nth-of-type(2) {
+	background: left center no-repeat url(12_15-assets/Video.png);
+}
+
+.column02 div:nth-of-type(2) p:nth-of-type(3) {
+	background: left center no-repeat url(12_15-assets/Painting.png);
+}
+
+.column02 div:nth-of-type(2) p:nth-of-type(4) {
+	background: left center no-repeat url(12_15-assets/Chart.png);
+}
+
+.column02 div:nth-of-type(3) .active {
+	position: absolute;
+	top: 620px;
+	left: 0;
+}
+
+.column02 .row .mess2 {
+	background: right center no-repeat url(12_15-assets/21.png);
+}
+
+.column02 .row .mess3 {
+	background: right center no-repeat url(12_15-assets/Alert.png);
+}
+
+.column02 .bottom {
+	font-size: 14px;
+	color: #000;
+}
+
+.column02 .bottom .left {
+	float: left;
+}
+
+.column02 .bottom .right {
+	float: right;
+}
+
+.column02 .bottom .fill {
+	position: relative;
+	bottom: 19px;
+}
+
+/* 第三列 */
+.column03 {
+	float: left;
+	box-sizing: border-box;
+	width: calc(100% - 350px);
+}
+
+.column03 .head {
+	padding: 0 30px;
+	height: 80px;
+	line-height: 80px;
+}
+
+.column03 .head span {
+	font-size: 24px;
+}
+
+.column03 .head .person {
+    position: absolute;
+    top: 11px;
+    right: 80px;
+}
+
+.column03 .head .person a {
+	float: left;
+	margin-right: 18px;
+}
+
+.column03 .head .person div {
+	float: left;
+	line-height: 25px;
+}
+
+.column03 .head .person div p:first-child {
+    font-size: 16px;
+    color: #2399f1;
+}
+
+.column03 .head .person div p:last-child {
+	font-size: 14px;
+	color: #b5b5b5;
+}
+
+.column03 .head a {
+	float: right;
+}
+
+.column03 .left {
+	box-sizing: border-box;
+	float: left;
+	width: 400px;
+	border-top: 1px solid #e6e9ec;
+	border-right: 1px solid #e6e9ec;
+}
+
+.column03 .left .search{
+    padding: 15px 30px;
+    border-bottom: 1px solid #e6e9ec;
+    height: 40px;
+}
+
+.column03 .left .search input {
+	padding: 10px;
+	border: 1px solid #e6e9ec;
+	border-radius: 5px;
+	width: 317px;
+	background-image: url(12_15-assets/Search icon.png);
+}
+
+.column03 .left .chat {
+	height: 90px;
+	padding: 20px;
+	border-bottom: 1px solid #e6e9ec;
+}
+
+.column03 .left #active {
+	position: relative;
+}
+
+.column03 .left #active .highlight {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.column03 .left #active .person div p:first-child {
+	padding-left: 15px;
+	color: #2399f1;
+	background: left center no-repeat url(12_15-assets/blue.png);
+}
+
+.column03 .left #active br + p {
+	background: right center no-repeat url(12_15-assets/4.png);
+}
+
+.column03 .left .chat .person a {
+	float: left;
+	margin-right: 18px;
+}
+
+.column03 .left .chat .person div {
+	float: left;
+	line-height: 20px;
+}
+
+.column03 .left .chat .person div p:first-child {
+    font-size: 16px;
+    color: #585d68;
+}
+
+.column03 .left .chat .person div p:last-child {
+	font-size: 14px;
+	color: #b5b5b5;
+}
+
+.column03 .left .chat span {
+	float: right;
+	color: #7f8fa4;
+}
+
+.column03 .left .chat p:last-child {
+	font-size: 14px;
+	line-height: 19px;
+	color: #585d68;
+}
+
+.column03 .right {
+	box-sizing: border-box;
+	float: left;
+	width: calc(100% - 400px);
+	border-top: 1px solid #e6e9ec;
+}
+
+.column03 .right .top {
+	padding: 0 20px;
+    height: 70px;
+    border-bottom: 1px solid #e6e9ec;
+    line-height: 70px;
+}
+
+.column03 .right .top table {
+	border-collapse: collapse;
+	background-color: #fcfdfd;
+}
+
+.column03 .right .top table,
+.column03 .right .top tr,
+.column03 .right .top td {
+	border: 1px solid #e6e9ec;
+	line-height: 30px;
+}
+
+.column03 .right .top td {
+	padding: 4px 8px;
+}
+
+.column03 .right .top .tool {
+	float: right;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 295px;
+}
+
+.column03 .right .message {
+	margin: 25px;
+}
+
+.column03 .right .message img {
+    float: left;
+    margin-right: 20px;
+}
+
+.column03 .right .message .content {
+	overflow: auto;
+}
+
+.column03 .right .message .content .name {
+	margin-right: 5px;
+	font-size: 16px;
+	color: #585d68;
+}
+
+.column03 .right .message .content .time {
+	font-size: 14px;
+	color: #7f8fa4;
+}
+
+.column03 .right .message .content p {
+	margin-top: 3px;
+	font-size: 14px;
+	line-height: 19px;
+	color: #585d68;
+}
+
+.column03 .right .divide {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #7f8fa4;
+}
+
+.column03 .right .divide hr {
+	display: inline-block;
+	flex-grow: 1;
+	border: 0.5px solid #e6e9ec;
+}
+
+.column03 .right .divide span {
+	margin: 0 5px;
+}
+
+.column03 .right #active {
+	color: #2399f1;
+}
+
+.column03 .right #active hr {
+	border-color: #2399f1;
+}
+
+.column03 .right .new {
+	margin: 25px;
+}
+
+.column03 .right .new button {
+	float: left;
+	width: 54px;
+	height: 54px;
+	border: 1px solid #e6e9ec;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	font-size: 30px;
+	color: #9fa9ba;
+	background-color: #f3f5f8;
+}
+
+.column03 .right .new input {
+	float: left;
+	height: 50px;
+	width: calc(100% - 58px);
+	border: 1px solid #e6e9ec;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
